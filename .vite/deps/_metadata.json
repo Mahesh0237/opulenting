@@ -1,0 +1,155 @@
+{
+  "hash": "04bae445",
+  "browserHash": "1ded9796",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c1544712",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "1c8e58a6",
+      "needsInterop": true
+    },
+    "@mantine/notifications": {
+      "src": "../../node_modules/@mantine/notifications/esm/index.js",
+      "file": "@mantine_notifications.js",
+      "fileHash": "46d38ad5",
+      "needsInterop": false
+    },
+    "@mantine/core": {
+      "src": "../../node_modules/@mantine/core/esm/index.js",
+      "file": "@mantine_core.js",
+      "fileHash": "e0d46921",
+      "needsInterop": false
+    },
+    "@mantine/hooks": {
+      "src": "../../node_modules/@mantine/hooks/esm/index.js",
+      "file": "@mantine_hooks.js",
+      "fileHash": "23d6b0ca",
+      "needsInterop": false
+    },
+    "firebase/auth": {
+      "src": "../../node_modules/firebase/auth/dist/esm/index.esm.js",
+      "file": "firebase_auth.js",
+      "fileHash": "ccab10d2",
+      "needsInterop": false
+    },
+    "@mantine/modals": {
+      "src": "../../node_modules/@mantine/modals/esm/index.js",
+      "file": "@mantine_modals.js",
+      "fileHash": "567910d9",
+      "needsInterop": false
+    },
+    "firebase/database": {
+      "src": "../../node_modules/firebase/database/dist/esm/index.esm.js",
+      "file": "firebase_database.js",
+      "fileHash": "2492e679",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "4b7a333e",
+      "needsInterop": false
+    },
+    "@tabler/icons-react": {
+      "src": "../../node_modules/@tabler/icons-react/dist/esm/tabler-icons-react.js",
+      "file": "@tabler_icons-react.js",
+      "fileHash": "8067f3a3",
+      "needsInterop": false
+    },
+    "firebase/app": {
+      "src": "../../node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "5d925a78",
+      "needsInterop": false
+    },
+    "firebase/analytics": {
+      "src": "../../node_modules/firebase/analytics/dist/esm/index.esm.js",
+      "file": "firebase_analytics.js",
+      "fileHash": "782b47b8",
+      "needsInterop": false
+    },
+    "zustand": {
+      "src": "../../node_modules/zustand/esm/index.mjs",
+      "file": "zustand.js",
+      "fileHash": "0d7bc4d7",
+      "needsInterop": false
+    },
+    "zustand/middleware": {
+      "src": "../../node_modules/zustand/esm/middleware.mjs",
+      "file": "zustand_middleware.js",
+      "fileHash": "631768db",
+      "needsInterop": false
+    },
+    "react-responsive-carousel": {
+      "src": "../../node_modules/react-responsive-carousel/lib/js/index.js",
+      "file": "react-responsive-carousel.js",
+      "fileHash": "ca39e323",
+      "needsInterop": true
+    },
+    "@mantine/carousel": {
+      "src": "../../node_modules/@mantine/carousel/esm/index.js",
+      "file": "@mantine_carousel.js",
+      "fileHash": "3c6a9e86",
+      "needsInterop": false
+    },
+    "@mantine/dropzone": {
+      "src": "../../node_modules/@mantine/dropzone/esm/index.js",
+      "file": "@mantine_dropzone.js",
+      "fileHash": "ff9acf16",
+      "needsInterop": false
+    },
+    "@firebase/storage": {
+      "src": "../../node_modules/@firebase/storage/dist/index.esm2017.js",
+      "file": "@firebase_storage.js",
+      "fileHash": "c0a25c47",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "82252565",
+      "needsInterop": false
+    },
+    "validator": {
+      "src": "../../node_modules/validator/index.js",
+      "file": "validator.js",
+      "fileHash": "9b70dde5",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-J44HHDLI": {
+      "file": "chunk-J44HHDLI.js"
+    },
+    "chunk-5CXBJU3I": {
+      "file": "chunk-5CXBJU3I.js"
+    },
+    "chunk-L5WJE4FH": {
+      "file": "chunk-L5WJE4FH.js"
+    },
+    "chunk-GRAWNF3N": {
+      "file": "chunk-GRAWNF3N.js"
+    },
+    "chunk-UCPK3CVF": {
+      "file": "chunk-UCPK3CVF.js"
+    },
+    "chunk-2J6D64BS": {
+      "file": "chunk-2J6D64BS.js"
+    },
+    "chunk-RVSLBP3T": {
+      "file": "chunk-RVSLBP3T.js"
+    },
+    "chunk-ST3U5LCA": {
+      "file": "chunk-ST3U5LCA.js"
+    },
+    "chunk-DFKQJ226": {
+      "file": "chunk-DFKQJ226.js"
+    }
+  }
+}
