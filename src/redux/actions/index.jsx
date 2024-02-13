@@ -3,17 +3,18 @@ export const incNumber = () => {
         type: 'INCREMENT'
     }
 }
+
 export const decNumber = () => {
     return {
         type: "DECREMENT"
     }
 }
+
 export const resetNumber = () => {
     return {
         type: "reset"
     }
 }
-
 
 export const setAuthStatus = (isLoggedIn) => {
     if (isLoggedIn) {
@@ -28,7 +29,6 @@ export const setAuthStatus = (isLoggedIn) => {
     }
 }
 
-
 export const setUserTypeUpdate = (status) => {
     if (status) {
         localStorage.setItem('userTypeUpdateNew', 'true');
@@ -41,5 +41,3 @@ export const setUserTypeUpdate = (status) => {
         payload: status
     }
 }
-
-

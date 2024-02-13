@@ -325,19 +325,26 @@ function Signuppagewrapper() {
                 })
                 createUserWithEmailAndPassword(auth, email, password)
                     .then((userCredential) => {
+                        notifications.show({
+                            title: 'user created successfully !',
+                            color: 'green',
+                            zIndex: 9999999,
+                        })
                         console.log('user is created')
+                        navigate('/')
                     })
                     .catch((error) => {
                         setIsLoadingEffect(false)
                         console.log(error)
-                        // if (error.code === 'auth/email-already-in-use') {
-                        //     notifications.show({
-                        //         title: 'Provided email is already registered with us !',
-                        //         message: 'Please login!!!',
-                        //         color: 'green',
-                        //         zIndex: 9999999,
-                        //     })
-                        // }
+                        if (error.code === 'auth/email-already-in-use') {
+                            notifications.show({
+                                title: 'Provided email is already registered with us !',
+                                message: 'Please login!!!',
+                                color: 'green',
+                                zIndex: 9999999,
+                            })
+                            navigate('/signin')
+                        }
                     })
                 setOtpVerify(true)
                 closeOtpVerifyModal()
@@ -520,8 +527,6 @@ function Signuppagewrapper() {
             console.error("Google Sign-In Error:", error)
         }
     }
-
-
     return (
         <Container size={550} pt={60} pb={60} className='loginform'>
             <Text weight={700} size={25} ta="center" py={10} fs="italic" td="underline" color='#8c3838'>Sign Up</Text>

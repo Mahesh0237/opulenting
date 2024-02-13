@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import imagetwo from '../../assets/visabackground.png'
 import { Button, Grid, Group, Loader, LoadingOverlay, Modal, Stack, Text } from '@mantine/core'
-import { Getintouchformone } from '../Getintouchform'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
 import { useViewportSize } from '@mantine/hooks'
+import { Getintouchformone } from '../Getintouchform'
 function Banner() {
   const { width } = useViewportSize()
   const [formModal, setFormModal] = useState(false)
@@ -150,4 +150,4 @@ function Banner() {
   )
 }
 
-export default Banner 
+export default Banner

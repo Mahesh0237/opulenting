@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
 import Banner from '../components/homewrapper/Banner'
 import Immigrationsection from '../components/homewrapper/Immigrationsection'
@@ -9,11 +9,10 @@ import Checkyoureligibilitywrapper from '../components/homewrapper/Checkyourelig
 import Popularproducts from '../components/homewrapper/Popularproducts'
 import Resourcesandnewswrapper from '../components/homewrapper/resourcesandnews/Resourcesandnewswrapper'
 import Testimonials from '../components/homewrapper/Testimonials'
-import { userTypeUpdate } from '../zustand/UserTypeUpdate'
 import Usertypeupdatewrapper from '../components/usertype/Usertypeupdatewrapper'
 
 function Homepage({ isLoggedIn }) {
-    const { usertype } = userTypeUpdate()
+    
     return (
         <>
             {

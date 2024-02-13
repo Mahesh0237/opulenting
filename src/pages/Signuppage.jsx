@@ -4,7 +4,9 @@ import Signuppagewrapper from '../components/Signuppagewrapper'
 import { Anchor, Divider, Grid, Group, Stack, Text } from '@mantine/core'
 import { IconPhone } from '@tabler/icons-react'
 import { Link } from 'react-router-dom'
+
 function Signuppage() {
+
     return (
         <>
             <Header />
