@@ -10,9 +10,10 @@ import Popularproducts from '../components/homewrapper/Popularproducts'
 import Resourcesandnewswrapper from '../components/homewrapper/resourcesandnews/Resourcesandnewswrapper'
 import Testimonials from '../components/homewrapper/Testimonials'
 import Usertypeupdatewrapper from '../components/usertype/Usertypeupdatewrapper'
+import { userTypeUpdate } from '../zustand/UserTypeUpdate'
 
 function Homepage({ isLoggedIn }) {
-    
+    const { usertype } = userTypeUpdate()
     return (
         <>
             {
